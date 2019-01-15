@@ -100,6 +100,14 @@
     <servlet-name>InterfaceExportGLSrvl</servlet-name>
     <servlet-class>df.servlet.interfacefile.InterfaceExportGLSrvl</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>ProcessEnableTaxReportSrvl</servlet-name>
+    <servlet-class>df.servlet.process.ProcessEnableTaxReportSrvl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProcessEnableTaxReportSrvl</servlet-name>
+    <url-pattern>/ProcessEnableTaxReportSrvl</url-pattern>
+  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>RetrieveData</servlet-name>
     <url-pattern>/RetrieveData</url-pattern>
